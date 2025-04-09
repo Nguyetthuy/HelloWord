@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Màu nền nhẹ nhàng */
+    margin: 0;
+    padding: 20px; /* Thêm khoảng cách bên trong */
+}
+
+h2 {
+    color: #333; /* Màu chữ tiêu đề */
+    text-align: left; /* Căn trái tiêu đề */
+}
+
+form {
+    background-color: white; /* Nền trắng cho form */
+    border-radius: 8px; /* Bo tròn góc */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bóng đổ nhẹ */
+    padding: 20px; /* Khoảng cách bên trong */
+    margin-bottom: 20px; /* Khoảng cách dưới form */
+}
+
+label {
+    display: block; /* Hiển thị label dưới dạng khối */
+    margin-bottom: 5px; /* Khoảng cách dưới label */
+    color: #555; /* Màu chữ cho label */
+}
+
+input[type="text"] {
+    width: 100%; /* Chiều rộng 100% */
+    padding: 10px; /* Khoảng cách bên trong */
+    margin-bottom: 15px; /* Khoảng cách dưới input */
+    border: 1px solid #ccc; /* Đường viền */
+    border-radius: 4px; /* Bo tròn góc */
+    box-sizing: border-box; /* Đảm bảo padding không làm tăng chiều rộng */
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Màu nền cho nút submit */
+    color: white; /* Màu chữ */
+    border: none; /* Không có đường viền */
+    border-radius: 5px; /* Bo tròn góc */
+    padding: 10px 20px; /* Khoảng cách bên trong */
+    cursor: pointer; /* Con trỏ chuột khi hover */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Màu nền khi hover */
+}
+
+button {
+    padding: 10px 20px; /* Khoảng cách bên trong */
+    font-size: 1em; /* Kích thước chữ */
+    background-color: #28a745; /* Màu nền cho nút */
+    color: white; /* Màu chữ */
+    border: none; /* Không có đường viền */
+    border-radius: 5px; /* Bo tròn góc */
+    cursor: pointer; /* Con trỏ chuột khi hover */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu */
+}
+
+button:hover {
+    background-color: #218838; /* Màu nền khi hover */
+}
